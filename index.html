@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Navigation Table</title>
+
+    <style>
+        table {
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 15px;
+        }
+
+        img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>
+                <a href="subpage1.html">
+                    <img src="image1.jpg" alt="Image 1">
+                </a>
+                <div class="caption">Text for Image 1</div>
+            </td>
+
+            <td>
+                <a href="subpage2.html">
+                    <img src="image2.jpg" alt="Image 2">
+                </a>
+                <div class="caption">Text for Image 2</div>
+            </td>
+
+            <td>
+                <a href="subpage3.html">
+                    <img src="image3.jpg" alt="Image 3">
+                </a>
+                <div class="caption">Text for Image 3</div>
+            </td>
+
+            <td>
+                <a href="subpage4.html">
+                    <img src="image4.jpg" alt="Image 4">
+                </a>
+                <div class="caption">Text for Image 4</div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
